@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left
+{
+  text-align: left;
+}
+
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clear-fix {
+  float: none;
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* CSS For MENU*/
+
+.menu {
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff6b81;
+}
+
+.menu ul li a:hover {
+  color: red;
+}
+
+/* CSS For MAIN-Content*/
+
+.main-content {
+  background-color: #f1f2f6;
+  padding: 3% 0;
+}
+
+.tbl-full {
+  width: 100%;
+}
+
+table tr th {
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+
+table tr td {
+  padding: 1%;
+}
+
+.col-4 {
+  width: 18%;
+  height: 300px;
+  border: 2px solid black;
+  background: radial-gradient(white,yellow,gold, coral);
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+
+.col-4 img {
+  background-color: #fff;
+  padding: 5px;
+  border: 2px solid #000;
+}
+
+.btn-primary {
+  background-color: #1e90ff;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: #3742fa;
+}
+
+.tbl-30 {
+  width: 50%;
+}
+
+.btn-secondary {
+  background-color: #7bed9f;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-secondary:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #ff6b81;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-danger:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.success {
+  color: #2ed573;
+  font-weight: bold;
+  font-size: large;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: large;
+}
+
+textarea{
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 3px;
+  font-size: 17px;
+}
+
+[type=text],
+[type=password],select {
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+[type=submit] {
+  width: 50%;
+  height: 40px;
+  font-size: 22px;
+}
+
+.tbl-30 td {
+  padding: 2%;
+  font-size: 20px;
+  margin: 2%;
+  text-align: center;
+}
+
+/* CSS For FOOTER*/
+.footer {
+  background-color: #ff4757;
+  color: white;
+  padding: 0.1%;
+  font-size: 20px;
+}
+
+/* CSS For LOGIN */
+.login {
+  width: 30%;
+  margin: 10% auto;
+  padding: 2%;
+  background:none;
+  float: left;
+}
+
+.s45{
+  font-size: 45px;
+}
